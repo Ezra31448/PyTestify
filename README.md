@@ -72,10 +72,10 @@ PyTestify/
 ├── README.md
 ├── requirements.txt
 ├── pytest.ini
-├── .github/
-│   └── workflows/
-│       └── api-tests.yml
+├── config.py
 ├── conftest.py
+├── report.html
+├── business_requirements.docx
 ├── testdata/
 │   ├── badge.json
 │   ├── user.json
@@ -83,10 +83,18 @@ PyTestify/
 ├── tests/
 │   ├── badge/
 │   │   └── test_badge_api.py
-│   ├── user/
-│   │   └── test_user_api.py
-│   └── product/
-│       └── test_product_api.py
+│   ├── cart/
+│   │   └── test_cart_api.py
+│   ├── checkout/
+│   │   └── test_checkout_api.py
+│   ├── product/
+│   │   └── test_product_api.py
+│   ├── seller/
+│   │   └── test_seller_api.py
+│   ├── support/
+│   │   └── test_support_api.py
+│   └── user/
+│       └── test_user_api.py
 └── utils/
     ├── api_client.py
     └── data_loader.py
