@@ -1,6 +1,6 @@
-# HavenTest: API Testing Framework for Style Haven
+# PyTestify: API Testing Framework for Style Haven
 
-HavenTest is a modular, scalable, and maintainable API testing framework designed for the "Style Haven" fashion e-commerce platform. Built on top of pytest, it provides:
+PyTestify is a modular, scalable, and maintainable API testing framework designed for the "Style Haven" fashion e-commerce platform. Built on top of pytest, it provides:
 
 - Structured, functional test grouping (user, product, cart, checkout, seller, support)
 - Data-driven testing with JSON-managed test data
@@ -9,7 +9,7 @@ HavenTest is a modular, scalable, and maintainable API testing framework designe
 - HTML reporting for clear test results
 - CI/CD integration with GitHub Actions
 
-HavenTest empowers QA teams to validate RESTful APIs efficiently, ensuring robust, secure, and high-quality releases for Style Haven and similar modern web platforms.
+PyTestify empowers QA teams to validate RESTful APIs efficiently, ensuring robust, secure, and high-quality releases for Style Haven and similar modern web platforms.
 
 ---
 
