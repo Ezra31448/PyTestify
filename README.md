@@ -31,6 +31,8 @@ PyTestify empowers QA teams to validate RESTful APIs efficiently, ensuring robus
    Using [uv](https://github.com/astral-sh/uv):
    ```powershell
    uv venv .venv
+   or
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
    .venv\Scripts\Activate.ps1   # Windows PowerShell
    # Or, for Ubuntu on Windows (WSL):
    source .venv/bin/activate
